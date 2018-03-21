@@ -4,8 +4,11 @@
 <title>Epiphany Direct</title>
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 <script>
-$( "h1" ).Mouseover(function() {
-  $( "h1" ).fadeIn( "slow", function() {
+$(document).ready(function(){
+    $("h1").mouseover(function(){
+        $("body").animate({background-color: "#fed"});
+    });
+   </script>
 </head>
 <body>
 <h1>Epiphany Direct Coming Soon...</h1>
